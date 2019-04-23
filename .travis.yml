@@ -26,29 +26,7 @@ compiler:
 env:
     matrix:
       - TARGET=distcheck
-      - TARGET=test
-      - TARGET=coverage
-      - OS=el DIST=6
-      - OS=el DIST=7
-      - OS=fedora DIST=28
-      - OS=fedora DIST=29
-      - OS=fedora DIST=rawhide
-      - OS=ubuntu DIST=trusty
-      - OS=ubuntu DIST=xenial
-      - OS=ubuntu DIST=bionic
-      - OS=ubuntu DIST=cosmic
-      - OS=debian DIST=jessie
-      - OS=debian DIST=stretch
-      - OS=debian DIST=buster
-      - OS=debian DIST=sid
-      - OS=ubuntu DIST=trusty ARCH=i386
-      - OS=ubuntu DIST=xenial ARCH=i386
-      - OS=ubuntu DIST=bionic ARCH=i386
-      - OS=ubuntu DIST=cosmic ARCH=i386
-      - OS=debian DIST=jessie ARCH=i386
-      - OS=debian DIST=stretch ARCH=i386
-      - OS=debian DIST=buster ARCH=i386
-      - OS=debian DIST=sid ARCH=i386
+      - OS=ubuntu ARCH=arm64
 
 matrix:
   exclude:
