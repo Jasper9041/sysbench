@@ -30,8 +30,6 @@ env:
 
 matrix:
   exclude:
-    - env: OS=el DIST=6
-      compiler: clang
     - env: OS=el DIST=7
       compiler: clang
     - env: OS=fedora DIST=28
